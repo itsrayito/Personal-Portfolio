@@ -1,0 +1,94 @@
+/* Start of Global Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* End of Global Styling */
+
+/* Start of Full Body Section Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* End of Full Body Section Styling */
+
+/* Start of Header Section Styling */
+header {
+    padding: 20px 35px;
+    background-color: #024e76;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    color: darkred;
+    border-radius: 15px;
+    text-shadow: none;
+}
+/* End of Header Section Styling */
+
+/* Start of Footer Section Styling */
+footer {
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+/* End of Footer Section Styling */
+
+/* Section Global Styling */
+section {
+    padding: 60px;
+}
+
+/* Start of Hero Section Styling */
+.hero {
+    
+}
