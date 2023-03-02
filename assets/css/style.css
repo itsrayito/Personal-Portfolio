@@ -90,5 +90,212 @@ section {
 
 /* Start of Hero Section Styling */
 .hero {
-    
+    background-image: url('../images/placeholder\ image.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.hero h2 {
+    font-style: normal;
+    font-size: 30px;
+    color: #024e76;
+    float: right;
+    background-color: #fce138;
+}
+/* End of Hero Section Styling */
+
+/* Start of Main Sections Content Styling */
+.section {
+    background-color: #024e76;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* "About Me" and "Contact Me Sections Titles Styling */
+.section-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: #fce138;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    border-right: #fce138 solid 3px;
+}
+
+/* "Work" Section Title's Styling */
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: #fce138;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    height: 1250px;
+}
+
+/* "About Me" and "Contact Me" Section Contents Styling */
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+}
+
+/* "Work" Section Content Styling */
+.flex-row2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+    border-left: #fce138 solid 3px;
+}
+
+/* Picture of myself */
+.photo {
+    width: 10%;
+    height: auto;
+    padding-left: 1%;
+}
+
+/* Section Font and Anchor Elements Styling */
+.section p, .section a {
+    line-height: 1.5;
+    color: #fce138;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+
+/* "Work" Section Font Styling */
+.flex-row p {
+    display: inline-block;
+    text-align: start;
+    background-color: darkred;
+    opacity: 85%;
+    width: 45%;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+}
+
+/* Main Project Section Styling */
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    height: 650px;
+    width: 100%;
+}
+
+/* Other Projects Section Styling */
+.side-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* Main Project Image Styling */
+.surf-report {
+    background-image: url("../images/placeholder\ image.png");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 0 1% 2% 1%;
+    border: darkred 5px solid;
+    position: relative;
+}
+
+/* Main Project Hover Styling */
+.surf-report:hover {
+    opacity: 75%;
+}
+
+/* LED Wall Image Styling */
+.led-wall {
+    background-image: url(../images/placeholder\ image.png);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: darkred 5px solid;
+    position: relative;
+}
+
+/* LED Wall Hover styling */
+.led-wall:hover {
+    opacity: 75%;
+}
+
+/* Calculator Image Styling */
+.calculator {
+    background-image: url(../images/placeholder\ image.png);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: darkred 5px solid;
+    position: relative;
+}
+
+/* Calculator Hover Stying */
+.calculator:hover {
+    opacity: 75%;
+}
+
+/* Pastel Puzzels Image Styling */
+.pastel-puzzels {
+    background-image: url(../images/placeholder\ image.png);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: darkred 5px solid;
+    position: relative;
+}
+
+/* Pastel Puzzels Hover Styling */
+.pastel-puzzels:hover {
+    opacity: 75%;
+}
+
+/* Run Buddy Image Styling */
+.run-buddy {
+    background-image: url(../images/placeholder\ image.png);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: darkred 5px solid;
+    position: relative;
+}
+
+/* Run Buddy Hover styling */
+.run-buddy:hover {
+    opacity: 75%;
 }
