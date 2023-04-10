@@ -148,8 +148,8 @@
             .project:hover {
                 opacity: 1.0;
             }
-            .run-buddy {
-                background-image: url(../images/running\ woman.jpeg);
+            .marvel-gifs {
+                background-image: url(../images/gifs_assemble.png);
                 grid-column: 1/3;
                 grid-row: span 2;
             }
