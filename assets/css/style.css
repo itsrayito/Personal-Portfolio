@@ -19,7 +19,7 @@
             padding: 20px;
         }
         header h1 {
-            color: #233d8c;
+            color: #ab263c;
             font-size: 45px;
             font-weight: bold;
             background-color: #E8DED1;
@@ -29,7 +29,7 @@
 
         header a {
             text-decoration: none;
-            color: #233d8c;
+            color: #ab263c;
         }
 
         header nav ul {
@@ -78,7 +78,7 @@
             }
             .hero .quote {
                 background-color: #E8DED1;
-                color: #233d8c;
+                color: #ab263c;
                 padding: 10px;
                 justify-content: flex-end;
             }
@@ -166,7 +166,7 @@
                 background-image: url(../images/sunset.jpeg);
             }
             .project-label {
-                background-color: #233d8c;
+                background-color: #ab263c;
                 color: #E8DED1;
                 padding: 10px;
             }
