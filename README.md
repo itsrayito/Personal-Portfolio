@@ -12,6 +12,7 @@ This week, I learned how to use HTML & CSS elements together by creating my very
 ### Links for Images used
 -  Pastel-Puzzels: https://www.istockphoto.com/photo/set-of-used-pastel-sticks-in-a-box-background-gm683894208-125570481
 -  Surf Report: https://www.istockphoto.com/photo/beautiful-sunset-over-the-tropical-sea-gm1172427455-325240255
+- Banner Image: https://jeffbernhard.com/product/john-moulton-barn-sunset-in-grand-teton-national-park-jackson-hole/
 ## Links
 - GitHub Solution URL:
 https://github.com/itsrayito/Personal-Portfolio
